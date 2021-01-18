@@ -1,28 +1,32 @@
-@font-face {
-    font-family: nova;
-    src: url(../font/NovaRound-Regular.ttf);
-}
+/*@font-face {*/
+/*    font-family: nova;*/
+/*    src: url(../font/NovaRound-Regular.ttf);*/
+/*}*/
 
 * {
-    font-family: nova;
+    font-family: 'Poppins', sans-serif;
+    transition: .5s;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
-
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
 }
+body {
+    background-color: #161f2b;
+    min-height: 150vh;
+}
 .parallax {
     background-image: url(../imgs/moon.jpg);
     height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70% 100%;
     margin: 0;
 }
 .page-container {
@@ -32,39 +36,78 @@ html, body {
     width: 1400px;
     margin: auto;
 }
-.landing.parallax .hackberry-blurb {
-    position: relative;
-    top: 30%;
-    transform: translateY(-100%);
-    color: #cc1937;
-}
 .hackberry-blurb {
     position: relative;
     top: 30%;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     color: #cc1937;
+    opacity: 0;
 }
 .hackberry-blurb h1 {
-    font-size: 79px;
+    font-size: 128px;
 }
 .standard-width h2 {
     display: inline-block;
 }
+.landing h3 {
+    font-size: 43px;
+}
 .standard-width.dev {
     position: relative;
-    top: 40%;
+    top: 28%;
     transform: translateY(-50%);
 }
 .standard-width.design {
-    top: 50%;
+    top: 38%;
     position: relative;
     transform: translateY(-50%);
 }
 .standard-width.seo {
-    top: 60%;
+    top: 46%;
     position: relative;
     transform: translateY(-50%);
 }
 .standard-width h2 {
     display: inline-block;
+}
+.floating-text h2 {
+    border: 4px solid #6e2732;
+    padding: 8px 8px;
+    min-width: 230px;
+    text-align: center;
+    font-size: 25px;
+    color: #cc1937;
+}
+h2.web-design {
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%);
+}
+h2.seo-expert {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.floating-text {
+    /*opacity: 0;*/
+}
+.screen {
+    background-color: #161f2b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.overflow {
+    overflow: hidden;
+}
+.slide-up {
+    transform: translateY(100%);
+}
+.slide-up-center-y {
+    transform: translate(-50%, 100%) !important;
+}
+
+.hackberry-tag {
+    transform: translateY(-40%);
 }
