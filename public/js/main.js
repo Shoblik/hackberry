@@ -16,9 +16,9 @@ $(window).on('load', function() {
         $('#developers h2').removeClass('slide-up');
     }, 1200);
     setTimeout(function() {
-        $('#designers h2').removeClass('slide-up-center-y');
+        $('#designers h2').removeClass('slide-up');
         }, 1500);
     setTimeout(function() {
-        $('#seo h2').removeClass('slide-up-center-y');
+        $('#seo h2').removeClass('slide-up');
     }, 1800);
 })

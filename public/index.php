@@ -15,17 +15,23 @@
             </div>
             <div class="standard-width dev floating-text">
                 <div id="developers" class="overflow">
-                    <h2 class="slide-up">Web Development</h2>
+                    <a href="#">
+                        <h2 class="slide-up">Web Development</h2>
+                    </a>
                 </div>
             </div>
             <div class="standard-width design floating-text">
                 <div id="designers" class="overflow">
-                    <h2 class="web-design slide-up-center-y">Web Design</h2>
+                    <a href="">
+                        <h2 class="web-design slide-up">Web Design</h2>
+                    </a>
                 </div>
             </div>
             <div class="standard-width seo floating-text">
                 <div id="seo" class="overflow">
-                    <h2 class="seo-expert slide-up-center-y">SEO Expertise</h2>
+                    <a href="">
+                        <h2 class="seo-expert slide-up">SEO Expertise</h2>
+                    </a>
                 </div>
             </div>
             <div class="landing-image-container overflow">
