@@ -12,4 +12,13 @@ $(window).on('load', function() {
             opacity: 1
         });
     }, 800);
+    setTimeout(function() {
+        $('#developers h2').removeClass('slide-up');
+    }, 1200);
+    setTimeout(function() {
+        $('#designers h2').removeClass('slide-up-center-y');
+        }, 1500);
+    setTimeout(function() {
+        $('#seo h2').removeClass('slide-up-center-y');
+    }, 1800);
 })

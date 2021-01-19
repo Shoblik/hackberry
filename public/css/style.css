@@ -62,11 +62,13 @@ body {
     top: 38%;
     position: relative;
     transform: translateY(-50%);
+    z-index: 10;
 }
 .standard-width.seo {
     top: 46%;
     position: relative;
     transform: translateY(-50%);
+    z-index: 10;
 }
 .standard-width h2 {
     display: inline-block;
@@ -106,7 +108,7 @@ h2.seo-expert {
     transform: translateY(100%);
 }
 .slide-up-center-y {
-    transform: translate(-50%, 100%) !important;
+    transform: translate(-50%, 100%);
 }
 
 .hackberry-tag {
@@ -125,3 +127,8 @@ h2.seo-expert {
     transform: translateY(5%);
     opacity: 0;
 }
+h2.slide-up-center-y {
+    transform: translate(-50%, 100%);
+}
+.seo-expert,
+.
