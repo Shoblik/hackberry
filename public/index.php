@@ -2,7 +2,6 @@
 <html lang="en">
 <?php require('./views/templates/head.php'); ?>
 <body>
-    <div class="screen"></div>
     <div class="page-container">
         <?php require('./views/templates/nav.php'); ?>
         <div class="landing parallax">
@@ -28,6 +27,9 @@
                 <div id="seo" class="overflow">
                     <h2 class="seo-expert slide-up-center-y">SEO Expertise</h2>
                 </div>
+            </div>
+            <div class="landing-image-container overflow">
+                <img id="landingImage" src="./imgs/moon.jpg" alt="">
             </div>
         </div>
     </div>

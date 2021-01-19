@@ -7,13 +7,9 @@ $(window).on('load', function() {
         $('#hackberryTag h3').css('transform', 'none');
     }, 400);
     setTimeout(function() {
-        $('.screen').css({
-            // transform: 'translateX(100%)',
-            opacity: 0,
-            transition: '.8s'
+        $('#landingImage').css({
+            transform: 'none',
+            opacity: 1
         });
-    }, 1200);
-    setTimeout(function() {
-        $('#')
-    }, 1600);
+    }, 800);
 })

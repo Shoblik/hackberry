@@ -21,7 +21,7 @@ body {
     min-height: 150vh;
 }
 .parallax {
-    background-image: url(../imgs/moon.jpg);
+    background-color: #161f2b;
     height: 100vh;
     background-attachment: fixed;
     background-position: right center;
@@ -42,6 +42,7 @@ body {
     transform: translateY(-50%);
     color: #cc1937;
     opacity: 0;
+    z-index: 1;
 }
 .hackberry-blurb h1 {
     font-size: 128px;
@@ -110,4 +111,17 @@ h2.seo-expert {
 
 .hackberry-tag {
     transform: translateY(-40%);
+}
+.landing-image-container {
+    position: absolute;
+    width: 70.4%;
+    height: 100vh;
+    top: 0;
+    left: 29.6%;
+}
+.landing-image-container img {
+    width: 100%;
+    height: 100%;
+    transform: translateY(5%);
+    opacity: 0;
 }
