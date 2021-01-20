@@ -22,3 +22,21 @@ $(window).on('load', function() {
         $('#seo h2').removeClass('slide-up');
     }, 1800);
 })
+
+$(document).ready(function() {
+    $('.contact-form input').on('focusout', function(event) {
+         landing.inputFocusOut(event);
+    });
+});
+
+var landing = {
+    contactTransition: function(selector) {
+        $(selector).css('transform', 'translateY(-100%)');
+    },
+    inputFocusOut: function(e) {
+        if (!$(event.target).val()) {
+            var selector = $(event.target).attr('data');
+            $(selector).css('transform', 'translateY(0%)');
+        }
+    }
+}

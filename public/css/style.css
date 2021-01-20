@@ -11,6 +11,9 @@
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+.text-center {
+    text-align: center;
+}
 html, body {
     width: 100%;
     height: 100%;
@@ -20,6 +23,7 @@ body {
     background-color: #161f2b;
     min-height: 150vh;
 }
+/* START Landing Screen*/
 .parallax {
     background-color: #161f2b;
     height: 100vh;
@@ -47,9 +51,6 @@ body {
 .hackberry-blurb h1 {
     font-size: 128px;
 }
-.standard-width h2 {
-    display: inline-block;
-}
 .landing h3 {
     font-size: 43px;
 }
@@ -70,13 +71,13 @@ body {
     transform: translateY(-50%);
     z-index: 10;
 }
-.standard-width h2 {
+.landing h2 {
     display: inline-block;
 }
 .floating-text h2 {
     border: 4px solid #6e2732;
     padding: 8px 8px;
-    min-width: 230px;
+    min-width: 287px;
     text-align: center;
     font-size: 25px;
     color: #cc1937;
@@ -126,5 +127,83 @@ h2.seo-expert {
 h2.slide-up-center-y {
     transform: translate(-50%, 100%);
 }
-.seo-expert,
-.
+/*END Landing screen*/
+/*Start Contact*/
+.contact {
+    font-size: 48px;
+    color: #cc1937;
+    margin: 100px 0 100px 0;
+}
+.form-item-container {
+    border-bottom: 1px solid #3a3738;
+    margin-bottom: 95px;
+    position: relative;
+    box-sizing: border-box;
+}
+input.standard-input {
+    width: 100%;
+    background-color: #161f2b;
+    border: none;
+    color: #cc1937;
+    font-size: 35px;
+    padding: 0 16px;
+    position: relative;
+}
+textarea.standard-textarea {
+    background-color: #161f2b;
+    border: none;
+    color: #cc1937;
+    font-size: 35px;
+    resize: none;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea.standard-textarea:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+.full-border {
+    border: 1px solid #3a3738;
+}
+.slide-left-on-click {
+    position: absolute;
+
+}
+.contact-name {
+    font-size: 35px;
+    padding-left: 16px;
+}
+.contact-form p {
+    color: #757575;
+    top: 0;
+    transition: .3s;
+}
+/*End Contact*/
+/*footer*/
+footer {
+    min-height: 500px;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
