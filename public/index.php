@@ -16,21 +16,21 @@
             <div class="standard-width dev floating-text">
                 <div id="developers" class="overflow">
                     <a href="#">
-                        <h2 class="slide-up">Web Development</h2>
+                        <h2 class="slide-up red">Web Development</h2>
                     </a>
                 </div>
             </div>
             <div class="standard-width design floating-text">
                 <div id="designers" class="overflow">
                     <a href="">
-                        <h2 class="web-design slide-up">Web Design</h2>
+                        <h2 class="web-design slide-up red">Web Design</h2>
                     </a>
                 </div>
             </div>
             <div class="standard-width seo floating-text">
                 <div id="seo" class="overflow">
                     <a href="">
-                        <h2 class="seo-expert slide-up">SEO Expertise</h2>
+                        <h2 class="seo-expert slide-up red">SEO Expertise</h2>
                     </a>
                 </div>
             </div>
@@ -39,18 +39,18 @@
             </div>
         </div>
         <div class="standard-width">
-            <h2 class="text-center contact">Get in Touch</h2>
+            <h2 id="getInTouch" class="text-center contact slide-up">Get in Touch</h2>
             <div class="contact-form">
-                <div onclick="landing.contactTransition('.contact-name-trans');" class="form-item-container">
+                <div id="contactName" onclick="landing.contactTransition('.contact-name-trans');" class="form-item-container slide-up">
                     <input onfocus="landing.contactTransition('.contact-name-trans');" name="hidden-name" type="text" class="standard-input" data=".contact-name-trans"/>
                     <p class="slide-left-on-click contact-name contact-name-trans">Name</p>
                 </div>
-                <div onclick="landing.contactTransition('.contact-email-trans');" class="form-item-container">
+                <div id="contactEmail" onclick="landing.contactTransition('.contact-email-trans');" class="form-item-container slide-up">
                     <input onfocus="landing.contactTransition('.contact-email-trans');" name="email" type="text" class="standard-input" data=".contact-email-trans"/>
                     <p class="slide-left-on-click contact-name contact-email-trans">Email</p>
                 </div>
-                <div class="form-item-container full-border">
-                    <textarea placeholder="Message" name="hidden-message" rows="10" class="standard-textarea"></textarea>
+                <div id="contactMessage" class="form-item-container last-form-item full-border slide-up">
+                    <textarea placeholder="Message" name="hidden-message" rows="8" class="standard-textarea"></textarea>
                 </div>
                 <div class="btn-container">
                     <button class="standard-btn red">Submit</button>

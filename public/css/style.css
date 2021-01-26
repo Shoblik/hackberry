@@ -22,6 +22,7 @@ html, body {
 body {
     background-color: #161f2b;
     min-height: 150vh;
+    overflow-x: hidden;
 }
 /* START Landing Screen*/
 .parallax {
@@ -75,7 +76,7 @@ body {
     display: inline-block;
 }
 .floating-text h2 {
-    border: 4px solid #6e2732;
+    border: 4px solid;
     padding: 8px 8px;
     min-width: 287px;
     text-align: center;
@@ -103,6 +104,7 @@ h2.seo-expert {
 }
 .slide-up {
     transform: translateY(100%);
+    opacity: 0;
 }
 .slide-up-center-y {
     transform: translate(-50%, 100%);
@@ -181,14 +183,72 @@ input:focus {
     top: 0;
     transition: .3s;
 }
+.last-form-item {
+    margin-bottom: 32px;
+}
+button.standard-btn {
+    font-size: 35px;
+    background-color: transparent;
+    border: 2px solid;
+    width: 250px;
+}
+.standard-btn:hover {
+    cursor: pointer;
+}
+.standard-btn:focus {
+    outline: none;
+}
+.red {
+    border-color: #cc1937;
+    color: #cc1937;
+}
+.red:hover {
+    background-color: #cc1937;
+    color: #161f2b;
+    border-color: #cc1937;
+}
+.contact-form {
+    user-select: none;
+}
 /*End Contact*/
 /*footer*/
 footer {
     min-height: 500px;
 }
 /*end footer*/
+/*Scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cc1937;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*End scroll bar*/
+/*Circle Spy*/
+.circle-spy {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 1000;
+    border: 4px solid #cc1937;
+    transform: translate(-50%, -50%);
+    transition: 0s;
+    border-radius: 50%;
+}
+/*Circle Spy*/
 
 
 
